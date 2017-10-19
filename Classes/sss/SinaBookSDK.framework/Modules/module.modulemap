@@ -1,0 +1,11 @@
+framework module SinaBookSDK {
+  umbrella header "SinaBookSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SinaBookSDK.Swift {
+    header "SinaBookSDK-Swift.h"
+    requires objc
+}
